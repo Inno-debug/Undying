@@ -465,6 +465,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72b38e00da5c50d4cb9defbe1394c588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+--- !u!50 &1194480991
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194480986}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1001 &5205983524603253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -541,6 +569,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7007885537556841921, guid: 6cfbb3a07760b5f4c916a7c810796004, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1194480990}
+    - targetCorrespondingSourceObject: {fileID: 7007885537556841921, guid: 6cfbb3a07760b5f4c916a7c810796004, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1194480991}
   m_SourcePrefab: {fileID: 100100000, guid: 6cfbb3a07760b5f4c916a7c810796004, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
