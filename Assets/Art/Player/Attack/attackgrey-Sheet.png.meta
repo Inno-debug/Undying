@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      attackgrey-Sheet_0: 6760156024626837822
+      attackgrey-Sheet_1: 8059169245856443660
+      attackgrey-Sheet_10: 3411456369442873104
+      attackgrey-Sheet_11: 2675073018531806155
+      attackgrey-Sheet_2: -3802644558568496060
+      attackgrey-Sheet_3: 7214053288020993128
+      attackgrey-Sheet_4: 8903377427189976125
+      attackgrey-Sheet_5: 3132564171119228296
+      attackgrey-Sheet_6: 6194631726137170407
+      attackgrey-Sheet_7: 8764482813319624628
+      attackgrey-Sheet_8: 1414173025381322502
+      attackgrey-Sheet_9: 8636473854690748335
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

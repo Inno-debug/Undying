@@ -397,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      idlegrey-Sheet_0: 7921901191954004954
+      idlegrey-Sheet_1: -3153826980018157536
+      idlegrey-Sheet_10: 1318717476399548848
+      idlegrey-Sheet_2: 8605054665789128817
+      idlegrey-Sheet_3: -4437306526460809110
+      idlegrey-Sheet_4: -4756297037443047393
+      idlegrey-Sheet_5: -970161163493370118
+      idlegrey-Sheet_6: -9206197324758379702
+      idlegrey-Sheet_7: -8128175095067462594
+      idlegrey-Sheet_8: -6320603969472026835
+      idlegrey-Sheet_9: 1561777418091093583
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

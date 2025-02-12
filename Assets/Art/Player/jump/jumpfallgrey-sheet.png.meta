@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      jumpfallgrey-sheet_0: 8612650951322391543
+      jumpfallgrey-sheet_1: 7499619823958995544
+      jumpfallgrey-sheet_2: 4243141316903662050
+      jumpfallgrey-sheet_3: 5551322853812035204
+      jumpfallgrey-sheet_4: -161224759751531957
+      jumpfallgrey-sheet_5: -5975876783117228073
+      jumpfallgrey-sheet_6: 7095360324977131045
+      jumpfallgrey-sheet_7: -1380598831231221544
+      jumpfallgrey-sheet_8: -5136998646190644109
+      jumpfallgrey-sheet_9: -2651406823976179675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
