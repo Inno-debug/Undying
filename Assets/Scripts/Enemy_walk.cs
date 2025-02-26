@@ -20,9 +20,12 @@ public class Enemy_walk : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
 
-        Vector2 target = new Vector2(player.position.x, rb.position.y);
-        Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
-        rb.MovePosition(newPos);
+        if (!animator.GetBool("Dead"))
+        {
+            Vector2 target = new Vector2(player.position.x, rb.position.y);
+            Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
+            rb.MovePosition(newPos);
+        }
 
     }
 
