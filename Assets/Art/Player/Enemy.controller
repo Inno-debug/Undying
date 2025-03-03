@@ -117,6 +117,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+  - m_Name: Revived
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -155,7 +161,6 @@ AnimatorState:
   m_Transitions: []
   m_StateMachineBehaviours:
   - {fileID: -2357057281151054448}
-  - {fileID: 347446105003306977}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -211,6 +216,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61adf990deed2f14e8e8991cf90776df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 2.5
+  targetObject: {fileID: 0}
 --- !u!114 &7343159892712786441
 MonoBehaviour:
   m_ObjectHideFlags: 1
