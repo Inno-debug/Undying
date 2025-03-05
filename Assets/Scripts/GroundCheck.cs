@@ -20,13 +20,11 @@ public class GroundCheck : MonoBehaviour
     void OnCollisionEnter2D(Collision2D coll){
         Debug.Log("collision detected!");    
          if (coll.gameObject.tag == "Ground"){
-            Debug.Log("It's the ground!");
             player.GetComponent<PlayerController>().grounded = true;
          }
     }
     void OnCollisionExit2D(Collision2D coll){
          if (coll.gameObject.tag == "Ground"){
-            Debug.Log("Leaving ground!");
             player.GetComponent<PlayerController>().grounded = false;
          }
     }
