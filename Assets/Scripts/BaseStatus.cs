@@ -36,6 +36,9 @@ public class BaseStatus : MonoBehaviour
                 stunTimer -= Time.deltaTime;
             }
         }
+        if (health <= 0) {
+            anim.SetBool("Dead",true);
+        }
 
     }
 }
