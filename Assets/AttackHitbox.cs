@@ -42,6 +42,6 @@ public class AttackHitbox : MonoBehaviour
             Physics2D.IgnoreCollision(enemyCollider, col, false);
         }
         hitEnemyColliders.Clear();
-        GetComponent<Animator>().SetBool("false", true);
+        GetComponent<Animator>().SetBool("hit", true);
     }
 }

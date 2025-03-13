@@ -325,6 +325,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3956448084206051469, guid: 57eb4654f9e65e84e968b575d5b42767, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5067830724389679964, guid: 57eb4654f9e65e84e968b575d5b42767, type: 3}
       propertyPath: m_GravityScale
       value: 10
